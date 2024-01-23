@@ -107,4 +107,3 @@ El proyecto se realizo con ayuda de las siguientes librerias:\
 **Toastify** , Web oficial : https://apvarun.github.io/toastify-js/# \
 **React Spinners**, Web oficial : https://www.davidhu.io/react-spinners/ \
 **AOS**, Web oficial : https://michalsnik.github.io/aos/ \
-_Este proyecto fue realizado con fines de aprendizaje, cualquier modificacion o cambio que mejore el codigo, contactarme a mi perfil._
