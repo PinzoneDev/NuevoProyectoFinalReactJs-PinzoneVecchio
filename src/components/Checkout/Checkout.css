@@ -1,0 +1,30 @@
+.checkout {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CardForm {
+  background-color: rgb(255, 221, 221);
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.CardFinish {
+  background-color: rgb(255, 221, 221);
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.CardFinishContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/*btnCard proviene de Item.css */

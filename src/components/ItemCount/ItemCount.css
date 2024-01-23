@@ -1,0 +1,49 @@
+/* Imports Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap"); /* font-family: "Prompt", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap"); /* font-family: 'Asap', sans-serif; */
+/* Imports Fuentes */
+/* Codigo clasificado por orden de aparicion en ItemCount.jsx */
+.itemCount {
+  border-radius: 15px 15px 15px 15px;
+  background-color: #ffadad;
+  margin-bottom: 10px;
+  height: 50px;
+  display: flex;
+}
+.countHandlers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnLess,
+.btnMore {
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+  background-color: #680000;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-family: "Asap", sans-serif;
+  transition: all 0.3s ease;
+}
+.counter {
+  text-align: center;
+  width: 40px;
+  font-family: "Asap", sans-serif;
+}
+.btnAdd {
+  width: 100%;
+  background-color: #680000;
+  color: white;
+  transition: all 0.3s ease;
+  border-radius: 0px 15px 15px 0px;
+  font-family: "Asap", sans-serif;
+  border: none;
+}
+.btnAdd:hover,
+.btnMore:hover,
+.btnLess:hover {
+  background-color: white;
+  color: #680000;
+}

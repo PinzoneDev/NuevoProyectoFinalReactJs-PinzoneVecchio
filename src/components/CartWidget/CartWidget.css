@@ -1,0 +1,9 @@
+.badgeCart {
+  position: relative;
+  left: 50%;
+  top: 25px;
+}
+.carritoImg {
+  height: 100px;
+  width: 100px;
+}

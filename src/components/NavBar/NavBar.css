@@ -1,0 +1,40 @@
+/* Imports Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap"); /* font-family: "Prompt", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap"); /* font-family: "ABeeZee", sans-serif; */
+/* Imports Fuentes */
+/* El codigo esa clasificado por orden de aparicion en NavBar.jsx */
+.nav {
+  background-color: rgba(205, 16, 19, 0.886);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Prompt", sans-serif;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover {
+  color: black;
+}
+.logoImg {
+  margin: 16px;
+  height: 100px;
+  width: 100px;
+}
+.navLinks {
+  width: 50%;
+}
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.navList li {
+  font-size: 200%;
+}
+.cartWidget {
+  text-align: center;
+}

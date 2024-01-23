@@ -1,0 +1,90 @@
+/* Imports Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap"); /* font-family: "Prompt", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap"); /* font-family: 'ABeeZee', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap"); /* font-family: 'Asap', sans-serif; */
+/* Imports Fuentes */
+/* El codigo esta clasificado por orden de aparicion en ItemDetail.jsx */
+.ItemDetailCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.CardDetail {
+  background-color: rgb(255, 221, 221);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.ImgItemDetail {
+  width: 450px;
+  padding: 10px;
+  margin: 10px;
+}
+.CardDetailBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  border-left: solid 2px;
+  border-color: #680000;
+  height: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.titleCardDetail {
+  margin-bottom: 45px;
+  height: 40px;
+  padding-top: 20px;
+  height: auto;
+  font-size: 30px;
+  border-bottom: #680000 solid 2px;
+  font-family: "Asap", sans-serif;
+}
+.descriptionCardDetail {
+  height: 40px;
+  margin-bottom: 45px;
+  font-family: "Asap", sans-serif;
+}
+.PriceAndRating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.ratingDetail {
+  font-family: "ABeeZee", sans-serif;
+  margin: 0;
+  font-size: 30px;
+}
+.priceCardDetail {
+  font-family: "ABeeZee", sans-serif;
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 45px;
+  font-size: 30px;
+  height: 40px;
+}
+.countAndBtnbBuy {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.btnBuy {
+  width: 110%;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  background-color: #680000;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 50%;
+  font-family: "Asap", sans-serif;
+}
+.btnBuy:hover {
+  background-color: white;
+  color: #680000;
+}

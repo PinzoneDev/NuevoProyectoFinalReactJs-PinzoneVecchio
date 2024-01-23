@@ -1,0 +1,70 @@
+/* Import Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");   /* font-family: "Prompt", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap");   /* font-family: "ABeeZee", sans-serif; */
+/* Import Fuentes */
+/* El codigo esta clasificado por orden de aparicion en Cart.jsx */
+.CartItemsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.totalContainer {
+  background-color: #ffdddd;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 20px;
+  font-family: "Prompt", sans-serif;
+  font-family: "ABeeZee", sans-serif;
+  letter-spacing: 2px;
+  margin: 20px 350px 20px 350px;
+}
+.cartFinishcontainer {
+  text-align: center;
+}
+.finishPriceCart {
+  text-align: center;
+  font-size: 30px;
+}
+.btnClean,
+.btnFinish {
+  text-decoration: none;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  background: #680000;
+  border: none;
+}
+.btnClean:hover,
+.btnFinish:hover {
+  background: #fff;
+  color: #680000;
+}
+.btnFinish a:hover {
+  color: #680000;
+  text-decoration: none;
+}
+.notProductCardContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notProductCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  font-family: "ABeeZee", sans-serif;
+  background-color: #ffdddd;
+  border-radius: 20px;
+}
